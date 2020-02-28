@@ -40,7 +40,7 @@
      ```bash
      .
      ├── dbs
-     		└── proteinnet12
+     |	 └── proteinnet12
      ├── rgn
      └── rgn_benchmark
          └── RGN12
