@@ -20,18 +20,10 @@
      RGN models trained on different dataset are also [available](https://github.com/aqlaboratory/rgn#pre-trained-models). 
 
 3. Unzip and place the uncompressed files 
-
-   * The path to rgn git repo will be `rgn_path` at [here](https://github.com/DeepLearn-Benchmark/rgn_benchmark/blob/f9a1acb7c77a367c194f6f2fe70e5b9f56d79eb0/rgn_perf.py#L30).    
-
-   * The path to ProteinNet12 will be `dbs_path` at [here](https://github.com/DeepLearn-Benchmark/rgn_benchmark/blob/f9a1acb7c77a367c194f6f2fe70e5b9f56d79eb0/rgn_perf.py#L31). 
+    All the databases and models are needed to run the benchmark. Their paths need to specified in `rgn_perf.py` or `rgn_perf.ipynb`. 
 
      ```bash
      gzip proteinnet12.gz
-     ```
-
-   * The path to RGN12 model will be `rgn_model_path` at [here](https://github.com/DeepLearn-Benchmark/rgn_benchmark/blob/f9a1acb7c77a367c194f6f2fe70e5b9f56d79eb0/rgn_perf.py#L32). 
-
-     ```bash 
      tar xvf RGN12.tar.gz
      ```
 
